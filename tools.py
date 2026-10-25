@@ -10,10 +10,10 @@ backend = StateBackend()
 def search_documentation(query: str) -> str:
     # Docstring allows the agent to understand what the tool is all about
     """
-    Search LangChain Documentation and save matching chunks to the agent filesystem
+    Search LangChain Documentation and save matching chunks to the agent filesystem.
 
     Args:
-        query: Natural Language search query
+        query: Natural Language search query.
 
     Return:
         File paths where retrieves chunks were saved unders /retrieved/.
